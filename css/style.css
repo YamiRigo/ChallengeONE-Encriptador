@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.error::-webkit-input-placeholder {
+    color: red;
+}
+  
+.error:-ms-input-placeholder {
+    color: red;
+}
+  
+.error::-ms-input-placeholder {
+    color: red;
+}
+  
+.error::placeholder {
+    color: red;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    margin: auto;
+    max-width: 60rem;
+    color: #6C3483;
+    background: linear-gradient(to bottom, #e7403c, burlywood);
+}
+
+header{
+    margin: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div{
+    margin-right: 2rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+header div img{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: blueviolet;
+    background-color: thistle;
+    border-radius: 0.5rem;
+    border: 1px solid springgreen;
+}
+
+.btn{
+    margin: 1rem;
+    background: slateblue;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px rebeccapurple;
+}
+
+.btn:hover{
+    color: rebeccapurple;
+}
+
+.btn:active{
+    position: relative;
+    top: 1px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+    margin: inherit;
+}
+
+footer div div{
+    width: 2rem;
+    height: 2rem;
+}
+
+footer div div img{
+    height: 100%;
+    width: 100%;
+}
+
+@media(min-width: 1200px){
+    .main{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+
+@media(max-width: 600px){
+    .texto{
+        width: 95vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .boton-encripta{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+span{
+    font-size: 0.5rem;
+    color: black;
+}
